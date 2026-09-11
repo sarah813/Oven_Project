@@ -1,0 +1,35 @@
+{
+  "test_n2": {
+    "start_temperature_c": 15.0,
+    "cooling_rate_c_per_h": 68.0,
+    "debinding_steps": [
+      {
+        "target_temperature_c": 200.0,
+        "ramp_rate_c_per_h": 100.0,
+        "hold_h": 0.0
+      },
+      {
+        "target_temperature_c": 480.0,
+        "ramp_rate_c_per_h": 56.0,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1052.0,
+        "ramp_rate_c_per_h": 111.1,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "CO₂",
+        "basis": "Temperature",
+        "start": 200.0,
+        "end": 1052.0,
+        "flow_rate_l_per_min": 1.0,
+        "stage": "Both"
+      }
+    ]
+  }
+}
