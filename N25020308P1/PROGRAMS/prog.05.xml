@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="../STYLE/Program.xsl"?>
+<NtProgram>
+
+	<Name>SINTERING EXTENSION</Name>
+		<ProgramFlags>
+		<Unit>Celsius</Unit>
+		<Holdback>false</Holdback>
+		<Cascade>false</Cascade>
+		<Endless>false</Endless>
+	</ProgramFlags>
+
+	<StartTemp>0</StartTemp>
+
+	<Segment>
+		<SegNum>1</SegNum>
+		<Temperature>1050</Temperature>
+		<Time>5</Time>
+		<Extra1>0</Extra1>
+		<Extra2>0</Extra2>
+		<Extra3>0</Extra3>
+		<Extra4>0</Extra4>
+		<Extra5>0</Extra5>
+		<Extra6>0</Extra6>
+		<CoolEnable>0</CoolEnable>
+	</Segment>
+	<Segment>
+		<SegNum>2</SegNum>
+		<Temperature>1050</Temperature>
+		<Time>120</Time>
+		<Extra1>0</Extra1>
+		<Extra2>0</Extra2>
+		<Extra3>0</Extra3>
+		<Extra4>0</Extra4>
+		<Extra5>0</Extra5>
+		<Extra6>0</Extra6>
+		<CoolEnable>0</CoolEnable>
+	</Segment>
+	<Segment>
+		<SegNum>3</SegNum>
+		<Temperature>0</Temperature>
+		<Time>0</Time>
+		<Extra1>0</Extra1>
+		<Extra2>0</Extra2>
+		<Extra3>0</Extra3>
+		<Extra4>0</Extra4>
+		<Extra5>0</Extra5>
+		<Extra6>0</Extra6>
+		<CoolEnable>0</CoolEnable>
+	</Segment>
+</NtProgram>

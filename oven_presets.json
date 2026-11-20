@@ -23,12 +23,450 @@
     ],
     "gas_phases": [
       {
-        "gas": "CO₂",
+        "gas": "CO2",
         "basis": "Temperature",
         "start": 200.0,
         "end": 1052.0,
         "flow_rate_l_per_min": 1.0,
-        "stage": "Both"
+        "stage": "All"
+      }
+    ]
+  },
+  "test_n1": {
+    "start_temperature_c": 15.0,
+    "cooling_rate_c_per_h": 60.0,
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1052.0,
+        "ramp_rate_c_per_h": 111.1,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Air",
+        "basis": "Time",
+        "start": 0.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 500.0,
+        "stage": "All"
+      }
+    ]
+  },
+  "test_n3": {
+    "start_temperature_c": 25.0,
+    "cooling_rate_c_per_h": 60.0,
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1052.0,
+        "ramp_rate_c_per_h": 111.1,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 800.0,
+        "flow_rate_l_per_min": 0.5,
+        "stage": "Debinding"
+      },
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 15.0,
+        "end": 23.0,
+        "flow_rate_l_per_min": 0.5,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 23.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.5,
+        "stage": "All"
+      }
+    ]
+  },
+  "test_n4": {
+    "start_temperature_c": 25.0,
+    "cooling_rate_c_per_h": 60.0,
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1052.0,
+        "ramp_rate_c_per_h": 111.1,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Argon",
+        "basis": "Time",
+        "start": 0.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.5,
+        "stage": "All"
+      }
+    ]
+  },
+  "Sintering_1": {
+    "start_temperature_c": 15.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Sintering only",
+    "start_time": "2026-11-16 18:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 800.0,
+        "ramp_rate_c_per_h": 50.0,
+        "hold_h": 0.0
+      },
+      {
+        "target_temperature_c": 1067.0,
+        "ramp_rate_c_per_h": 110.0,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 800.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 15.7,
+        "end": 24.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 24.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      }
+    ]
+  },
+  "Sintering_2": {
+    "start_temperature_c": 50.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Sintering only",
+    "start_time": "2026-11-17 16:30",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 800.0,
+        "ramp_rate_c_per_h": 50.0,
+        "hold_h": 0.0
+      },
+      {
+        "target_temperature_c": 1045.0,
+        "ramp_rate_c_per_h": 110.0,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 0.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.6,
+        "stage": "Sintering"
+      }
+    ]
+  },
+  "Debinding_3": {
+    "start_temperature_c": 50.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Debinding only",
+    "start_time": "2026-10-19 13:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 480.0,
+        "ramp_rate_c_per_h": 55.0,
+        "hold_h": 5.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1052.0,
+        "ramp_rate_c_per_h": 111.1,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 0.0,
+        "end": 20.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Debinding"
+      }
+    ]
+  },
+  "Sintering_3": {
+    "start_temperature_c": 15.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Sintering only",
+    "start_time": "2026-10-21 18:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1057.0,
+        "ramp_rate_c_per_h": 50.0,
+        "hold_h": 6.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 800.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 15.7,
+        "end": 24.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 24.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      }
+    ]
+  },
+  "Debinding_&_Sintering_1": {
+    "start_temperature_c": 30.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Debinding + sintering",
+    "start_time": "2026-10-21 18:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 490.0,
+        "ramp_rate_c_per_h": 55.0,
+        "hold_h": 5.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1048.0,
+        "ramp_rate_c_per_h": 110.0,
+        "hold_h": 6.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 800.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 16.2,
+        "end": 26.5,
+        "flow_rate_l_per_min": 0.6,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 26.5,
+        "end": 43.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Whole phase",
+        "start": 30.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Debinding"
+      }
+    ]
+  },
+  "Sintering_4": {
+    "start_temperature_c": 15.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Sintering only",
+    "start_time": "2026-10-29 19:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1055.0,
+        "ramp_rate_c_per_h": 100.0,
+        "hold_h": 8.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "CO2",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 1055.0,
+        "flow_rate_l_per_min": 0.6,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 18.5,
+        "end": 30.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      }
+    ]
+  },
+  "Debinding_&_Sintering_3": {
+    "start_temperature_c": 30.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Debinding + sintering",
+    "start_time": "2026-11-02 18:00",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 490.0,
+        "ramp_rate_c_per_h": 55.0,
+        "hold_h": 5.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1050.0,
+        "ramp_rate_c_per_h": 110.0,
+        "hold_h": 8.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "Nitrogen",
+        "basis": "Temperature",
+        "start": 0.0,
+        "end": 800.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 16.2,
+        "end": 26.5,
+        "flow_rate_l_per_min": 0.6,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Time",
+        "start": 26.5,
+        "end": 43.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Sintering"
+      },
+      {
+        "gas": "Nitrogen",
+        "basis": "Whole phase",
+        "start": 30.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.4,
+        "stage": "Debinding"
+      }
+    ]
+  },
+  "Sintering_2.2": {
+    "start_temperature_c": 50.0,
+    "cooling_rate_c_per_h": 60.0,
+    "cycle_mode": "Sintering only",
+    "start_time": "2026-11-17 16:30",
+    "debinding_steps": [
+      {
+        "target_temperature_c": 482.0,
+        "ramp_rate_c_per_h": 55.6,
+        "hold_h": 4.0
+      }
+    ],
+    "sintering_steps": [
+      {
+        "target_temperature_c": 1045.0,
+        "ramp_rate_c_per_h": 55.0,
+        "hold_h": 5.0
+      }
+    ],
+    "gas_phases": [
+      {
+        "gas": "CO2",
+        "basis": "Time",
+        "start": 0.0,
+        "end": 40.0,
+        "flow_rate_l_per_min": 0.6,
+        "stage": "Sintering"
       }
     ]
   }

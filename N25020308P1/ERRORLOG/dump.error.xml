@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<?xml-stylesheet type="text/xsl" href="../STYLE/Errors.xsl"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<ErrorStack>
+	<Error>
+		<Id>0</Id>
+		<SubId>0</SubId>
+		<Year>2000</Year>
+		<Month>0</Month>
+		<Day>0</Day>
+		<Hour>0</Hour>
+		<Minute>0</Minute>
+	</Error>
+	<Error>
+		<Id>0</Id>
+		<SubId>0</SubId>
+		<Year>2000</Year>
+		<Month>0</Month>
+		<Day>0</Day>
+		<Hour>0</Hour>
+		<Minute>0</Minute>
+	</Error>
+	<Error>
+		<Id>0</Id>
+		<SubId>0</SubId>
+		<Year>2000</Year>
+		<Month>0</Month>
+		<Day>0</Day>
+		<Hour>0</Hour>
+		<Minute>0</Minute>
+	</Error>
+	<Error>
+		<Id>0</Id>
+		<SubId>0</SubId>
+		<Year>2000</Year>
+		<Month>0</Month>
+		<Day>0</Day>
+		<Hour>0</Hour>
+		<Minute>0</Minute>
+	</Error>
+	<Error>
+		<Id>0</Id>
+		<SubId>0</SubId>
+		<Year>2000</Year>
+		<Month>0</Month>
+		<Day>0</Day>
+		<Hour>0</Hour>
+		<Minute>0</Minute>
+	</Error>
+</ErrorStack>
+<WarningStack>
+</WarningStack>
+</Device>

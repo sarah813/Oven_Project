@@ -1,0 +1,18 @@
+0;Date;07.08.2026;;Time;10:59:00;V;1;Standard
+1;Charge name;20260807_25020308_0010
+2;file name;20260807_25020308_0010.csv
+3;program number;1;KLEBER AUSHAERTUNG;Controller-ID: ;25020308
+4;HE;TA;TB;HH;MM;RATE;HB;CE;X1;X2;X3;X4;X5;X6;
+4;1;0;100;1;30;66;0;0;0;0;0;0;0;0
+4;2;100;260;1;30;106;0;0;0;0;0;0;0;0
+4;3;260;370;1;30;73;0;0;0;0;0;0;0;0
+6;comment;Stopped manually by user / 
+81;Version;0204
+82;Controller;B500
+83;Product line;C5P52021
+84;Result;OK
+86;Furnace-SN;460996
+7;Date/Time;Reserve;Segment;Data 1;Data 2;Data 3;Data 4;Data 5;Data 6;Data 7;Data 8;Data 9;Data 10;Data 11;Data 12;Data 13;Data 14;Data 15;Data 16;Checksum;Status;extrafunction 1;extrafunction 2;extrafunction 3;extrafunction 4;extrafunction 5;extrafunction 6;
+9;07.08.2026 11:00:19;;1;26;26;26;0;0;0;0;0;0;0;0;0;0;0;0;0;774;2;0;0;0;0;0;0;
+9;07.08.2026 11:01:19;;1;27;27;26;2;0;0;0;0;0;0;0;0;0;0;0;0;794;2;0;0;0;0;0;0;
+9;07.08.2026 11:02:19;;1;28;28;26;3;0;0;0;0;0;0;0;0;0;0;0;0;809;2;0;0;0;0;0;0;
