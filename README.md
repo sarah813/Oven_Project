@@ -22,7 +22,6 @@ Run this command from the project directory:
 ```bash
 python oven_parameters_tool.py
 ```
-
 The graphical interface opens with the profile plot on the right and the program controls on the left.
 
 ## Basic workflow
